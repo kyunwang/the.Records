@@ -1,0 +1,16 @@
+// https://oxc.rs/docs/guide/usage/formatter/config-file-reference.html
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    "coverage/**/*",
+    "*.min.js"
+  ],
+  "printWidth": 100,
+  "tabWidth": 3,
+  "useTabs": true,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "sortImports": {},
+  "sortTailwindcss": {},
+}
