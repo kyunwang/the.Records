@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pnpm exec lint-staged.sh "pnpm fmt:check" "*.json" "*.js" "*.jsx" "*.ts" "*.tsx" "*.mjs" "*.cjs"
+
+# exit 1
