@@ -42,9 +42,15 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^6.0.1
         version: 6.0.1(vite@8.0.3(@types/node@20.19.37)(jiti@2.6.1))
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       jsdom:
         specifier: ^29.0.1
         version: 29.0.1
+      lint-staged.sh:
+        specifier: ^0.2.0
+        version: 0.2.0
       oxfmt:
         specifier: ^0.40.0
         version: 0.40.0
@@ -853,6 +859,11 @@ packages:
     resolution: {integrity: sha512-CV9TW3Y3f8/wT0BRFc1/KAVQ3TUHiXmaAb6VW9vtiMFf7SLoMd1PdAc4W3KFOFETBJUb90KatHqlsZMWV+R9Gg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
 
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   is-potential-custom-element-name@1.0.1:
     resolution: {integrity: sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==}
 
@@ -941,6 +952,10 @@ packages:
   lightningcss@1.32.0:
     resolution: {integrity: sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==}
     engines: {node: '>= 12.0.0'}
+
+  lint-staged.sh@0.2.0:
+    resolution: {integrity: sha512-JEJA7zOHpydIUMXChqOvDfbK+p3xBRa/zy/kUZzh3kPmd8rl9ux18RGljUg1Nx/S7PNsojPml5U1Ek7IwwbPrQ==}
+    hasBin: true
 
   lru-cache@11.2.7:
     resolution: {integrity: sha512-aY/R+aEsRelme17KGQa/1ZSIpLpNYYrhcrepKTZgE+W3WM16YMCaPwOHLHsmopZHELU0Ojin1lPVxKR0MihncA==}
@@ -1842,6 +1857,8 @@ snapshots:
     transitivePeerDependencies:
       - '@noble/hashes'
 
+  husky@9.1.7: {}
+
   is-potential-custom-element-name@1.0.1: {}
 
   jiti@2.6.1: {}
@@ -1922,6 +1939,8 @@ snapshots:
       lightningcss-linux-x64-musl: 1.32.0
       lightningcss-win32-arm64-msvc: 1.32.0
       lightningcss-win32-x64-msvc: 1.32.0
+
+  lint-staged.sh@0.2.0: {}
 
   lru-cache@11.2.7: {}
 
